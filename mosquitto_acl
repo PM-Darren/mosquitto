@@ -1,0 +1,8 @@
+user zhaowei
+topic zhaowei/#
+topic zhaowei1/#
+topic test/#
+topic $SYS/broker/#
+pattern sensor/%u
+user test
+topic test/#
