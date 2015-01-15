@@ -4,7 +4,7 @@ PRO_PATH=$(pwd)
 PRO_LOG=mosquitto.log
 # testpro 为要守护的可执行程序，即保证它是一直运行的
 PROGRAM="mosquitto"
-CONFIG_FILE="/home/zhaowei/mosquitto/mosquitto.conf"
+CONFIG_FILE="/home/zhaowei/work/mosquitto/mosquitto_1_4.conf"
 
 if [ ! -f $PRO_PATH/$PRO_LOG ]; then  
 	touch $PRO_PATH/$PRO_LOG
